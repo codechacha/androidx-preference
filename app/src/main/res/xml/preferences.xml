@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  android:iconSpaceReserved="false">
+    <PreferenceCategory
+            android:title="Buttons"
+            android:key="pref_cat_buttons"
+            app:iconSpaceReserved="false">
+        <PreferenceScreen
+            android:title="@string/volume_buttons"
+            android:key="@string/key_pref_screen_volume"
+            android:layout="@layout/custom_normal_pref">
+        </PreferenceScreen>
+        <PreferenceScreen
+                android:title="@string/headset_buttons"
+                android:key="@string/key_pref_screen_headset"
+                android:layout="@layout/custom_normal_pref">
+        </PreferenceScreen>
+        <PreferenceScreen
+                android:title="@string/bixby_button"
+                android:key="@string/key_pref_screen_bixby"
+                android:layout="@layout/custom_normal_pref">
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="Options"
+            android:key="pref_cat_other"
+            app:iconSpaceReserved="false">
+
+    </PreferenceCategory>
+</PreferenceScreen>
